@@ -43,7 +43,7 @@
       }
       
       cancelar() {
-        console.log("hola mundo")
+      
         this.dispatchEvent(new CustomEvent('cancelar-custom-event',
           { detail: 'btn-cancel', bubbles: true, composed: true }));
       
